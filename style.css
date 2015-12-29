@@ -1,0 +1,126 @@
+body {
+	background-color: #0d0d0d;
+	color: white;
+}
+
+.navigate {
+	background-color: black;
+	opacity: 0.6;
+	-webkit-transition: transition 0.3s;
+	transition: 0.3s;
+	border-bottom: 1px solid white;
+}
+.navigate:hover {
+	opacity: 1.0;
+	transition: 0.3s;
+}
+.img-center {
+	display: block;
+	margin: auto;
+}
+.top-text {
+	font-size: 60px;
+	margin-top: 50px;
+}
+
+.header {
+	
+}
+
+.h-img {
+	display: block;
+	margin: auto;
+	width: 70%;
+}
+
+.h-text {
+	margin-top: 15%;
+	padding: 20px;
+}
+
+.links-one, .links-two {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.links-one li, .links-two li {
+	display: inline-block;
+	margin: 10px;
+}
+
+.links-one li a {
+	color: white;
+	text-decoration: none;
+	-webkit-transition: transition 0.3s;
+	transition: 0.3s;
+}
+
+.links-two li {
+	background-color: white;
+	-webkit-transition: transition 0.3s;
+	transition: 0.3s;
+}
+
+.links-one li a:hover {
+	color: blue;
+	-webkit-transition: transition 0.3s;
+	transition: 0.3s;
+}
+
+.links-two li:hover {
+	background-color: blue;
+	-webkit-transition: transition 0.3s;
+	transition: 0.3s;
+}
+
+.glyph {
+	height: 30px;
+	width: 30px;
+}
+
+.footer {
+	background-color: black;
+	opacity: 0.6;
+	-webkit-transition: transition 0.3s;
+	transition: 0.3s;
+}
+.footer:hover {
+	transition: 0.3s;
+	opacity: 1.0;
+}
+
+.c-img {
+	display: block;
+	width: 40%;
+	margin: auto;
+}
+
+/* Music Page */
+
+.frame {
+	width: 85%;
+	height: 850px;
+	display: block;
+    margin: auto;
+	border: 0;
+	margin-bottom: 50px;
+}
+
+/* Video Page */
+
+.vid-box {
+	width: 100%;
+	height: 475px;
+	display: block;
+    margin: auto;
+	border: 0;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+/* Photo Page */
+
+.pic-box {
+	width: 100%;
+	margin-bottom: 30px;
+}
